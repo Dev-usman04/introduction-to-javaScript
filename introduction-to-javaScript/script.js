@@ -46,6 +46,26 @@ console.log(primitive, anotherPrimitive);
              console.log(++num2);
              console.log(num2);
 
+             // equality Operator
+             console.log(5 === 5)
+             console.log(false === 1)
+             console.log()
+             /*let vehicle1 = ['lexus','toyota','benz' ];
+             let vehicle2 = ['lexus', 'toyota', 'benz'];
+             console.log(vehicle1 === vehicle2); */
+
+
+             let vehicle1 = ['lexus','toyota','benz' ];
+             let vehicle2 = vehicle1; 
+             console.log(vehicle1 == vehicle2);
+
+             // loose
+             console.log([] == 1);
+             console.log([1] == 1)
+             console.log(null == undefined);
+             console.log(null == false);
+             console.log('\t\n' == 0);
+
 
 
 
