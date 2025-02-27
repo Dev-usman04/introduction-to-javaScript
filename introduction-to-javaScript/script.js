@@ -33,8 +33,8 @@ console.log(primitive, anotherPrimitive);
            // const trueValue = num1 || name1? 'yes, it is truty' : ' no, it is  falsy'
 
           //  console.log(`${trueValue}`);
-          //
-
+          //   let state = {
+          
           //Comparison Operator
           let num2 = 10;
           const num3 = 20;
