@@ -159,6 +159,190 @@ function employer(name){
 }
 employer('idris')
 
+const myFunction = (name) => {
+    const babyFunction = () => {
+        return console.log(`good morning mr ${name}`)
+    }
+    babyFunction();
+}
+  myFunction('idris');
+
+  const prac = (greet) => {
+const sonPrac = () => {
+return console.log(` ${greet} to the holly month of Ramdan`)
+}
+sonPrac();
+  }
+  prac('welcome'); 
+
+
+  const food = ['indomi', 'rice','fufu', 'beans']
+  for(let i = 0; i < food.length; i++){
+    console.log(food[i])
+  }
+  const hobbies = ['gym','swimming', 'watching football', 'writing code']
+  for(let i = 0; i < hobbies.length; i++){
+    console.log(hobbies[i])
+  }
+ const numbers = [2,3,4,3,6,1]
+ for(i = 0; i < numbers.length; i++){
+    let element = numbers[i]
+    numbers[i] = element * 2;
+    console.log(numbers[i])
+ } 
+ let user1 = {
+    name: 'usman',
+    age: 30,
+    city: 'lagos'
+}
+for(key in user1){
+    console.log(key +  ':' ,user1 [key])
+}
+  
+
+  
+
+ 
+
+
+
+
+
+
+
+// const forIn = {
+//     name: 'DevDre',
+//     age: 25,
+//     email: 'bighalo77@gmail.com',
+//     gender: 'male',
+//     tribe: 'fufulde'
+// }
+
+// for(key in forIn){
+//     console.log(key + ':', forIn[key])
+//}
+
+ const arr = ['usman idris', 'lagos', 'nigeria', 'rice and beans']
+ for(key in arr){
+    console.log(key  +':', arr[i])
+ } 
+
+
+
+ // for loop
+ // for in loop
+ //for of loop
+ //for each loop
+
+
+
+              //for of loop
+ const myArr = ['mum', 'dad', 'siblins']
+ for(idris of myArr){
+    console.log(idris)
+ }
+
+               // for in
+     const forIn = {
+        name: 'ifris',
+        state: 'lagos',
+        preferState: 'Abuja'
+     }          
+     for(key in forIn){
+        console.log(key + ':', forIn[key])
+     } 
+
+     
+      
+
+    const myObj = {
+        name: 'legacy',
+        password: 12345678,
+        age: 23,
+        state: 'lagos',
+        sex: 'male'
+     }
+
+
+     for(key in myObj){
+        console.log(key + ':', myObj[key]) 
+
+
+        
+     }
+
+     const countries = ''
+     switch (countries){
+        case 'cameroon':
+            console.log('i av not really been to cameroon')
+            break;
+            case 'japan':
+                console.log(' i love japa')
+                break;
+                case 'nigeria':
+                    console.log('nigeria is not a country')
+                    break;
+                    default:
+                        console.log('why dont u think of relocatuing to USA')
+
+     }
+     
+const favoriteMeal = ['rice', 'beans', 'noodles', 2]
+for(let i = 0; i < favoriteMeal.length; i++){
+element = favoriteMeal[i]
+favoriteMeal[i] = element + element
+    console.log(favoriteMeal[i])
+}
+const myDetails = {
+    name: 'idris',
+    state: 'lagos',
+    gender: 'female'
+
+}
+for(key in myDetails){
+    console.log(key + ':', myDetails[key])
+
+}
+ let numB = 3
+for(let i = 0; i <= 12; i++){
+    console.log(`${numB} * ${i} = ${numB * [i]} `)
+    
+
+}
+ 
+    let fruits = ["mango", "orange", "banana"]
+ let w = 0;
+ while(w < fruits.length){
+    console.log(fruits[w]);
+   w++;
+ }
+
+
+  
+
+let fruitss = ["Apples", "Mangoes", "Oranges", "Watermelon"];
+let z = 0;
+while (z < fruitss.length){
+  console.log(fruitss[z]);
+  z++;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
