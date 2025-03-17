@@ -90,134 +90,178 @@
 
 let greetings = document.getElementById("myH1");
 const myButton = document.getElementById("submitButton");
-const input = document.getElementById("textArea");
+let input = document.getElementById("textArea");
+const inputName = document.getElementById("myName");
 let also = document.getElementById("also");
+
 myButton. onclick = function(){
+  name = inputName.value;
+ name.toUpperCase();
  age = input.value;
  age = Number(age);
- if(age <= 15  && age >= 1){
-greetings.textContent = 'May your Ramadan be filled with hope, kindness, and generosity. May you experience the true essence of this holy month. 🌙💕';
-also.textContent = ` Ramadan Kareem! 💖🌙`;
- }
-else if(age >= 16 && age <= 17){
-  greetings.textContent = `🌙 Ramadan Mubarak! May this holy month bring you peace, prosperity, and endless blessings. 🤲✨`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
-}
-else if(age > 17 && age < 19 ){
-  greetings.textContent = `May your fasts be easy, your prayers be accepted, and your heart be filled with faith. Ramadan Kareem! 💖🌙`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+ also.style.width = '230px';
+ also.style.color = 'orange';
+ greetings.style.color = 'orange';
 
+ if(age <= 15  && age >= 1 ){
+  if(name !== ""){
+greetings.textContent = 'May your Ramadan be filled with hope, kindness, and generosity. May you experience the true essence of this holy month. 🌙💕';
+also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+ }}
+else if(age >= 16 && age <= 17){
+  if(name !== ""){
+
+  greetings.textContent = `🌙 Ramadan Mubarak! May this holy month bring you peace, prosperity, and endless blessings. 🤲✨`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}}
+else if(age > 17 && age < 19 ){
+  if(name !== ""){
+
+  greetings.textContent = `May your fasts be easy, your prayers be accepted, and your heart be filled with faith. Ramadan Kareem! 💖🌙`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+
+}
 }
 else if(age >= 19 && age <= 21){
+  if(name !== ""){
+
   greetings.textContent = `🕋 May the spirit of Ramadan illuminate your heart and home with love, kindness, and peace. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
 
-
+  }
 }
 else if(age >= 22 && age <= 24){
+  if(name !== ""){
+
   greetings.textContent = `💫 Sending you warm wishes for a blessed Ramadan! May Allah’s mercy and grace be upon you. 🌙🤍`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
-
+  }
 
 }
 else if(age === 25){
+  if(name !== ""){
+
   greetings.textContent = ` 🤲 May your prayers be powerful, your faith be strong, and your heart be content this Ramadan. Ramadan Mubarak! 🌟🕌`;
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
-
+  }
 
 }
 else if(age === 26){
+  if(name !== ""){
+
   greetings.textContent = `🕋 🌟 May Allah accept your fasting, prayers, and good deeds, and may your Ramadan be truly special. Ramadan Mubarak! 🕋🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
-
+  }
 
 }
 else if(age === 27){
+  if(name !== ""){
+
   greetings.textContent = `🕋 May the spirit of Ramadan illuminate your heart and home with love, kindness, and peace. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
-
-
-
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 }
 else if(age === 28){
-  greetings.textContent = `🕋 Ramadan Mubarak! May this month be a source of enlightenment and purification for you. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `🕋 Ramadan Mubarak! May this month be a source of enlightenment and purification for you. 🌟🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age === 29){
-  greetings.textContent = `🕋  May your heart be filled with the light of Imaan and your soul with contentment.🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `🕋  May your heart be filled with the light of Imaan and your soul with contentment.🌟🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age === 30){
+  if(name !== ""){
+
   greetings.textContent = `🕋May Allah grant you strength and patience to observe your fast with sincerity and devotion. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
-
+  }
 
 }
 else if(age === 31){
-  greetings.textContent = `🕋  May Allah grant you and your loved ones a fulfilling, joyous, and spiritually uplifting Ramadan.🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `🕋  May Allah grant you and your loved ones a fulfilling, joyous, and spiritually uplifting Ramadan.🌟🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age === 32){
-  greetings.textContent = `🕋 May every moment of this Ramadan bring you closer to Allah’s mercy and blessings. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `🕋 May every moment of this Ramadan bring you closer to Allah’s mercy and blessings. 🌟🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age === 33){
+  if(name !== ""){
+
   greetings.textContent = `🕋  May the beauty of Ramadan inspire you to practice kindness, compassion, and generosity.🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
-
+  }
 
 }
 else if(age === 34){
-  greetings.textContent = `May this holy month cleanse your heart and bring you eternal joy.🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `May this holy month cleanse your heart and bring you eternal joy.🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age >= 35 && age <= 40){
-  greetings.textContent = `🕋  May the power of Ramadan transform your heart and lead you toward righteousness. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `🕋  May the power of Ramadan transform your heart and lead you toward righteousness. 🌟🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age >= 45 && age <= 50){
+  if(name !== ""){
+
   greetings.textContent = `🕋  May this Ramadan help you build a stronger bond with Allah and deepen your faith.🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
-
-
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+  
+  }
 
 }
 else if(age >= 51 && age <= 60){
-  greetings.textContent = `🕋May the blessings of Ramadan fill your life with love, generosity, and kindness. 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  if(name !== ""){
 
+  greetings.textContent = `🕋May the blessings of Ramadan fill your life with love, generosity, and kindness. 🌟🤲`
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
+}
 
 
 }
 else if(age >= 61 ){
+  if(name !== ""){
+
   greetings.textContent = `May Allah’s grace be with you in every aspect of your life during this holy month and beyond 🌟🤲`
-  also.textContent = ` Ramadan Kareem! 💖🌙`;
+  also.textContent = ` We wish ${name} a very sound Ramadan Kareem! 💖🌙`;
 
-
+  }
 
 }
 

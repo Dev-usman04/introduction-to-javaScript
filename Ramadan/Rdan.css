@@ -1,7 +1,7 @@
 #container{
     /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+    flex-direction: column; */
+    align-items: center; 
     
 }
 #heading{
@@ -10,6 +10,12 @@
     align-items: center;
     text-align: center; */
 }
+#myH1{
+    width: 50rem;
+    color: blue;
+}
+
+
 #textArea{
     border: 2px solid blue;
     width: 30px;

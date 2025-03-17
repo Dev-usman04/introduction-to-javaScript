@@ -1,11 +1,11 @@
-// Function declaration
+//  declaration
 
 
 // function myName(){
 //     return 'hello world'
 // }
 
-
+Function
 // // Function expression
 
 
